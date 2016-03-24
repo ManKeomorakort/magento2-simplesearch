@@ -31,26 +31,26 @@ define([
             template:
                 '<div class="c-smartsearch__product col-8-8">' +
 
-                    '<a class="c-smartsearch__image col-2-8" href="<%- data.url %>">' +
-                        '<img src="<%- data.image %>">' +
-                    '</a>' +
+                //    '<a class="c-smartsearch__image col-2-8" href="<%- data.url %>">' +
+                //        '<img src="<%- data.image %>">' +
+                //    '</a>' +
 
-                    '<div class="c-smartsearch__description col-6-8 last">' +
+                //    '<div class="c-smartsearch__description col-6-8 last">' +
 
                     '<a class="c-smartsearch__title h4" href="<%- data.url %>">' +
                         '<%- data.title %>' +
                     '</a>' +
 
-                    '<div class="c-smartsearch__price">' +
-                        '<span>' + $.mage.__("Price:") + ' <span class="<% if (data.has_special_price) { %> u-strike-through <% } %> ">' + '<%- data.price %></span></span>' +
-                    '</div>' +
+                //    '<div class="c-smartsearch__price">' +
+                //        '<span>' + $.mage.__("Price:") + ' <span class="<% if (data.has_special_price) { %> u-strike-through <% } %> ">' + '<%- data.price %></span></span>' +
+                //    '</div>' +
 
-                '<% if (data.has_special_price) { %>' +
-                    '<div class="c-smartsearch__sale">' +
-                        '<span class="c-smartsearch__sale--accent"> <%- data.special_price %></span>' +
-                    '</div>' +
-                '<% } %>'
-                +
+                //'<% if (data.has_special_price) { %>' +
+                //    '<div class="c-smartsearch__sale">' +
+                //        '<span class="c-smartsearch__sale--accent"> <%- data.special_price %></span>' +
+                //    '</div>' +
+                //'<% } %>'
+                //+
                 '</div> <!-- .c-smartsearch__product col-8-8 -->'
             ,
             submitBtn: 'button[type="submit"]',
