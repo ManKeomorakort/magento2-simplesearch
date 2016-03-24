@@ -6,13 +6,13 @@
 |
 |   Registration file for SmartSearch Module
 |
-|   @author Sebwite
+|   @author Sebwite/gammyduck
 |   @date 23 november 2015
 |   @time 16:54
 */
 
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Sebwite_SmartSearch',
+    'SimpleSearch',
     __DIR__
 );
