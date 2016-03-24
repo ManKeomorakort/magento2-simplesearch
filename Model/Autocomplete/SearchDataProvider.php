@@ -10,7 +10,7 @@
 |   @date 07 augustus 2015
 |   @time 17:35
 */
-namespace Sebwite\SmartSearch\Model\Autocomplete;
+namespace gammyduck\SimpleSearch\Model\Autocomplete;
 
 use Magento\Catalog\Api\ProductRepositoryInterface;
 use Magento\Framework\Api\FilterBuilder;
